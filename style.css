@@ -1,0 +1,92 @@
+:root{
+    --btn-border: #968634;
+    --bgc : #2b2922;
+    --text : #7b7972;
+    --white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: var(--bgc);
+    color: var(--white);
+}
+
+.container{
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 15vh;
+}
+
+.logo{
+    margin: 2% 2%;
+    float: left;
+}
+
+.list{
+    margin: 0 auto 0 40%;
+    display: block;
+}
+
+.list-item{
+    color: var(--text);
+    font-size: 22px;
+    margin-top: 5%;
+    margin-right: 4%;
+    float: left;
+}
+
+.list-item:hover{
+    color: var(--white);
+    font-weight: 800;
+}
+
+.button-small{
+    font-size: 22px;
+    border-radius: 10px;
+    color: var(--btn-border);
+    border: 1px solid var(--btn-border);
+    background-color: transparent;
+    right: 5%;
+    position: absolute;
+    margin-top: 2%;
+    padding: 15px 30px;
+}
+
+.hero{
+    height: 40vh;
+    justify-content: center;
+    margin: 3em auto;
+    width: 100%;
+}
+
+.hero-heading{
+    margin-left: 10%;
+    font-size: 70px;
+    width: 40%;
+    float: left;
+    margin-bottom: 5%;
+}
+
+article{
+    color: var(--text);
+    font-size: 25px;
+    width: 30%;
+    right: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.hero-img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
